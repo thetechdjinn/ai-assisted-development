@@ -10,6 +10,12 @@ The core process document. It walks through a complete workflow for AI-assisted 
 
 The document covers six phases: planning and requirements gathering, technology stack validation, development phase planning, pre-development documentation, development execution with multi-LLM code review, and post-project retrospective. It also includes a context priming strategy for starting fresh AI sessions and a collection of tips and principles.
 
+### AI-Developer-Rules.md
+
+A set of guidelines that every developer should follow when using AI coding assistants. While the process document describes a workflow, this document defines the rules and standards that govern that workflow.
+
+It covers the core principle of developer ownership and accountability, plan file requirements, structured development phases, a four-layer code review process (development AI, developer, third-party AI, and peer review), unit testing standards, pull request requirements, and data security rules for AI tool usage. It also includes guidance for handling failures at different levels (minor drift, phase-level, and plan-level) and a quick reference table summarizing all steps and gates.
+
 ### CODEREVIEW.md
 
 A companion file used during AI-assisted code reviews. It contains structured, role-specific review instructions designed to be loaded into an LLM's context only when performing a code review, not during implementation.
@@ -18,6 +24,6 @@ The file defines three review roles, each with a detailed checklist and narrativ
 
 ## How to Use These Documents
 
-Start with **AI-Assisted-Development-Process.md** to understand the full workflow. When you reach the code review stage of development (section 5.3 of the process document), reference **CODEREVIEW.md** for the specific review instructions.
+Start with **AI-Assisted-Development-Process.md** to understand the full workflow. **AI-Developer-Rules.md** defines the guidelines and standards that apply throughout the process. When you reach the code review stage of development (section 5.3 of the process document), reference **CODEREVIEW.md** for the specific review instructions.
 
-Both documents are intended to be living artifacts. Update them as you refine your process across projects.
+All three documents are intended to be living artifacts. Update them as you refine your process across projects.
